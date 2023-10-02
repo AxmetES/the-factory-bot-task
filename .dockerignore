@@ -1,0 +1,7 @@
+.env
+app/.env
+tg_bot/.env
+venv/
+env/
+.idea
+**/__pycache__/

@@ -1,0 +1,9 @@
+aiogram==3.0.0
+environs==9.5.0
+pip-chill==1.0.3
+psycopg2-binary==2.9.7
+requests==2.31.0
+sqlalchemy==2.0.20
+asyncpg==0.28.0
+python-decouple==3.8
+pyjwt==2.8.0
