@@ -15,22 +15,25 @@ cd the_factory_bot_task_compose
 add ```.env``` file.
 for example:
 
-```POSTGRES_USER=admin```
+```
+POSTGRES_USER=admin    
 
-```POSTGRES_PASSWORD=admin```
+POSTGRES_PASSWORD=admin
 
-```POSTGRES_DB=db```
+POSTGRES_DB=db
+    
+POSTGRES_HOST=db
 
-```POSTGRES_HOST=db```
+JWT_SECRET=03903af3ddb83d09f3e23e6424f47fcb
 
-```JWT_SECRET=03903af3ddb83d09f3e23e6424f47fcb```
+ALGORITHM=HS256
 
-```ALGORITHM=HS256```
+BOT_TOKEN=token from bot father
 
-```BOT_TOKEN=```{[token from bot father](https://t.me/botfather).}
+```
+[token from bot father](https://t.me/botfather)
 
-
-#### run
+### run
 ```bash
 docker-compose build
 ```
@@ -39,7 +42,7 @@ docker-compose build
 docker-compose up
 ```
 
-#### usage
+### usage
 
 url on digital ocean:
 
@@ -93,7 +96,7 @@ use the token you received earlier for authorization
 
 3. GET request ```/message/```:
 
-fill out the form to send a text.
-send text.
-
-You will receive the sent text in a telegram bot
+    fill out the form to send a text.
+    send text.
+    
+    You will receive the sent text in a telegram bot
