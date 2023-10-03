@@ -41,3 +41,59 @@ docker-compose up
 
 #### usage
 
+url on digital ocean:
+
+[http://104.248.42.254:8000/docs]()
+
+1. POST request ```/user/signup```:
+
+    fill in the fields
+    ```
+    {
+      "login": "your_login",
+      "password": "your_password",
+      "username": "username"
+    }
+    ```
+    response:
+    ```
+    {
+      "access token": "eyJhbG.........76ndrM"
+    }
+    ```
+2. POST request ```/user/login```:
+    ```
+    {
+      "login": "your_login",
+      "password": "your_password"
+    }
+    ```
+    response:
+    ```
+    {
+      "access token": "eyJhbG.........76ndrM"
+    }
+    ```
+   
+#### Next step
+
+find bot by name:
+
+https://t.me/answer_by_tokin_bot
+
+if everything goes well you will receive an answer:
+
+```
+U are registered.
+```
+
+#### Authorize
+
+use the token you received earlier for authorization
+
+3. GET request ```/message/```:
+
+fill out the form to send a text.
+send text.
+
+You will receive the sent text in a telegram bot
