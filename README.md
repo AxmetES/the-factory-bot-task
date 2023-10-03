@@ -84,7 +84,7 @@ find bot by name:
 
 https://t.me/answer_by_tokin_bot
 
-if everything goes well you will receive an answer:
+Send token to bot, if everything goes well you will receive an answer:
 
 ```
 U are registered.
